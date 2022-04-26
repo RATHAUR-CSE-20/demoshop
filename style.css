@@ -1,0 +1,121 @@
+.body{
+	background-color: darkcyan;
+    
+	
+       animation-name: animate;
+       animation-duration: 20s;
+       animation-delay: 10s;
+       animation-direction: alternate-reverse;
+       animation-fill-mode: forwards;
+       animation-iteration-count: infinite;
+       animation-play-state:running;
+       animation-timing-function: ease-in-out;
+    }
+    @keyframes animate{
+    	0%{
+    		background-color: lightblue;
+
+    	}
+    	20%{
+    		background-color: darkgoldenrod;
+    	}
+    	80%{
+    		background-color: lightpink;
+    	}
+    	100%{
+    		background-color: lightgrey;
+    	}
+    }
+    #contain{
+      text-align: center;
+      font-size: 40px;
+    }
+    .btn{
+    	margin-left: 20px;
+    	margin-right: 30px;
+    	border-radius: 5px;
+    	background-color: lightblue;
+    	color: black;
+    	font-size: 20px;
+    }
+    .btn:hover{
+    	color: darkgoldenrod;
+    	background-color: lightgrey;
+    	cursor: pointer;
+    	background-color: white;
+    }
+    .head{
+    	color: darkgoldenrod;
+    	margin-left: 50px;
+    	background-color: whitesmoke;
+    	margin-right: 1000px;
+    	padding-left: 30px;
+    	border: 2px solid pink;
+    }
+    .info{
+    	border: 2px solid black;
+    	margin-right: 700px;
+    	background-color: lightgrey;
+    	border-style: dotted;
+    	border-radius: 10px;
+    }
+    .pgh{
+    	padding-left: 20px;
+    	font-size: 28px;
+    }
+    .page{
+    	text-align: center;
+    	color: darkgoldenrod;
+    	margin-right: 500px;
+    	background-color: whitesmoke;
+    	padding-left: 10px;
+    	margin-left: 500px;
+    	border: 2px solid pink;
+    }
+    #resume{
+    	border: 2px solid black;
+    	border-radius: 10px;
+    	margin-right: 20px;
+    	margin-left: 20px;
+    	background-color: whitesmoke;
+
+    }
+    #about{
+    	text-align: center;
+    }
+  .qualification{
+   padding-left: 20px;
+   font-size: 25px;
+  }
+  #head{
+  	font-size: 23px;
+  	border: 2px solid black;
+  	margin-right: 1000px;
+  	margin-left: 65px;
+  	padding-left: 50px;
+  	margin-top: 100px;
+  	background-color: wheat;
+  }
+  #form{
+  	border: 2px solid black;
+  	margin-right: 950px;
+  	text-align: center;
+  	padding-top: 15px;
+  	padding-bottom: 15px;
+  	font-size: 20px;
+  	border-radius: 10px;
+  	background-color: wheat;
+  	margin-left: 20px;
+  }
+ .hon{
+	 font-size: 23px;
+	 text-align: right;
+	 margin-right: 25px;
+ }
+ #grt{
+	 margin-right: 50px;
+ }
+ .greetings{
+	font-size: 50px;
+	text-align: center;
+ }
